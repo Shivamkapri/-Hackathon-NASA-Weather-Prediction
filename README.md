@@ -1,3 +1,31 @@
+# Server Configuration
+PORT=5000
+NODE_ENV=development
+
+# MongoDB Configuration
+# MongoDB Configuration
+MONGODB_URI=mongodb+srv://tshivamkapri_db_user:SzvlGD5P0Po17Ld3@cluster0.omoalay.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+# NASA Earthdata Credentials (get from https://urs.earthdata.nasa.gov/)
+NASA_EARTHDATA_USERNAME=shivamkapri
+NASA_EARTHDATA_PASSWORD=ra)7P7PsJm4_EDy
+
+# API Configuration
+API_VERSION=v1
+CACHE_TTL=3600
+
+# CORS Configuration
+FRONTEND_URL=http://localhost:3000
+
+# Rate Limiting
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX_REQUESTS=100
+
+
+
+
+
+this was .env 
 # NASA Weather Prediction Backend API
 
 
